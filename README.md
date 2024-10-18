@@ -29,7 +29,7 @@ Trung cấp:
  11. Quản lý sách trong thư viện:
  • Tạo lớp Library với phương thức để thêm, tìm, và xoá sách khỏi danh sách.
  12. Lớp Product với chiết khấu:
- • Tạo lớp Product với phương thức getDiscountedPrice() tính giá sau khi áp dụng chiết khấu.
+ • Tạo lớp Product với phương thức getDiscountedPrice() tính giá sau khi áp dụng chiết  hấu.
  13. Lớp Vehicle và kế thừa:
  • Tạo lớp Vehicle với các thuộc tính speed, type, tạo các lớp con như Car, Bike, thêm các phương thức đặc biệt cho từng loại.
  14. Tạo danh sách học sinh giỏi:

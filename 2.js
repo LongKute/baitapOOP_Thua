@@ -1,19 +1,26 @@
 // 2. Lớp kế thừa:
 //  • Tạo lớp Student kế thừa từ lớp Person, thêm thuộc tính grade và phương thức study().
-
-import Person from "./1.js";
+const Person = require("./1.js");
 
 class Student extends Person {
-    constructor(name, age, grade) {
-        super(name, age),
-        this.grade = grade
-    }
+  constructor(name, age, grade) {
+    super(name, age), (this.grade = grade);
+  }
 
-    study(){
-        console.log('Học sinh Tên:' + `${this.name}`+" " + 'có số tuổi là:' + `${this.age}`+" " + 'đạt hạng:' +" "+ `${this.grade}`);
-        
-    }
+  study() {
+    console.log(
+      "Học sinh Tên:" +
+        `${this.name}` +
+        " " +
+        "có số tuổi là:" +
+        `${this.age}` +
+        " " +
+        "đạt hạng:" +
+        " " +
+        `${this.grade}`
+    );
+  }
 }
 
-const student = new Student('Longkute', 24, "Best")
-student.study()
+const student = new Student("Longkute", 24, "Best");
+student.study();
