@@ -20,3 +20,4 @@ console.log(MathUtils.sum(2, 4));
 console.log(MathUtils.subtract(4, 2));
 console.log(MathUtils.multiply(2, 4));
 console.log(MathUtils.divide(4, 2));
+// xong

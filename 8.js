@@ -12,3 +12,4 @@ class Circle {
 }
 const circle = new Circle(4);
 console.log(circle.getArea());
+// xong

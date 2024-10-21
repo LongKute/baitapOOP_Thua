@@ -8,9 +8,11 @@ class Rectangle {
   }
   // getter: dùng để truy cập giá trị của một thuộc tính
   get rectangular_Area() {
-    return this.height + this.width;
+    return this.height * this.width;
   }
-  set Rectangular_Area(a) {}
+  set Rectangular_Area(area) {
+    
+  }
 }
 const rectangle = new Rectangle(2, 4);
 console.log(rectangle.rectangular_Area);

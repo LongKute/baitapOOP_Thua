@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Library</title>
+</head>
+
+<body>
+    <div>
+        <h2> Nhập thông tin sách trong thư viện</h2>
+        <input id="bookId" type="text" placeholder="Nhập id sinh viên">
+        <input id="bookName" type="text" placeholder="Nhập tên sinh viên">
+        <button type="button" id="addButton" onclick="library.addBook()"> Nhập</button>
+    </div>
+    <div id="booktList">
+        <ul>
+
+        </ul>
+    </div>
+
+    <div>
+        <h2> Nhập thông tin tìm sách</h2>
+        <input id="findBooktId" type="text" placeholder="Tìm Sinh viên theo ID">
+        <button id="findBook" type="button" onclick="library.findBook()"> Tìm </button>
+
+    </div>
+    <div id="findBookList">
+        <ul>
+
+        </ul>
+    </div>
+    <script src="11.js"></script>
+</body>
+
+</html>

@@ -24,3 +24,4 @@ class Student extends Person {
 
 const student = new Student("Longkute", 24, "Best");
 student.study();
+// xong

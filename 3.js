@@ -24,3 +24,5 @@ const car3 = new Car("Chevrolet", "Trailblazer");
 car1.driver();
 car2.driver();
 car3.driver();
+// xong
+module.exports = Car

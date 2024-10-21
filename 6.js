@@ -26,3 +26,4 @@ class BankAccount {
 const bankAccount = new BankAccount(moneys, withdraws);
 
 bankAccount.check();
+// xong

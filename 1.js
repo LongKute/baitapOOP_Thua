@@ -14,3 +14,4 @@ const person = new Person("Longkute", 24);
 person.greet();
 
 module.exports = Person;
+// xong

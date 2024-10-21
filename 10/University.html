@@ -16,7 +16,7 @@
         <h2> Nhập thông tin sinh viên</h2>
         <input id="studentId" type="text" placeholder="Nhập id sinh viên">
         <input id="studentName" type="text" placeholder="Nhập tên sinh viên">
-        <button type="button" id="addStudent"> Nhập</button>
+        <button type="button" id="addButton" onclick="university.addStudent()"> Nhập</button>
     </div>
     <div id="studentList">
         <ul>
@@ -26,8 +26,8 @@
 
     <div>
         <h2> Nhập thông tin tìm sinh viên</h2>
-        <input id="findStudentId" type="text" placeholder="Tìm Sinh viên">
-        <button id="findStudent" type="button"> Tìm </button>
+        <input id="findStudentId" type="text" placeholder="Tìm Sinh viên theo ID">
+        <button id="findStudent" type="button" onclick="university.findStudent()"> Tìm </button>
 
     </div>
     <div id="findStudentList">
