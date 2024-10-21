@@ -10,9 +10,7 @@ class Rectangle {
   get rectangular_Area() {
     return this.height * this.width;
   }
-  set Rectangular_Area(area) {
-    
-  }
+  set Rectangular_Area(area) {}
 }
 const rectangle = new Rectangle(2, 4);
 console.log(rectangle.rectangular_Area);

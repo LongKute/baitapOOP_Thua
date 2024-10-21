@@ -15,6 +15,7 @@ class MathUtils {
     return a / b;
   }
 }
+
 // Gọi static method trực tiếp từ class
 console.log(MathUtils.sum(2, 4));
 console.log(MathUtils.subtract(4, 2));

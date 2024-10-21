@@ -4,27 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>University</title>
 </head>
 
 <body>
-    <div>
-        <h2>Nhập thông tin sinh viên</h2>
-        <input id="studentId" type="text" placeholder="Nhập ID sinh viên">
-        <input id="studentName" type="text" placeholder="Nhập tên sinh viên">
-        <button type="button" id="addStudentBtn">Nhập</button>
-    </div>
-
-    <h3>Danh sách sinh viên</h3>
-    <ul id="studentList"></ul>
-
-    <div>
-        <h2>Tìm sinh viên</h2>
-        <input id="findStudentId" type="text" placeholder="Nhập ID sinh viên để tìm">
-        <button type="button" id="findStudentBtn">Tìm</button>
-    </div>
-
-    <div id="findResult"></div>
+   
+<div class="tree">
+    <ul>
+      <li>
+        <a href="#">Parent</a>
+        <ul>
+          <li>
+            <a href="#">Child</a>
+            <ul>
+              <li>
+                <a href="#">Grand Child</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Child</a>
+            <ul>
+              <li>
+                <a href="#">Grand Child</a>
+              </li>
+              <li>
+                <a href="#">Grand Child</a>
+                <ul>
+                  <li>
+                    <a href="#">Great Grand Child</a>
+                  </li>
+                  <li>
+                    <a href="#">Great Grand Child</a>
+                  </li>
+                  <li>
+                    <a href="#">Great Grand Child</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Grand Child</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
 
     <script src="test.js"></script>
 </body>

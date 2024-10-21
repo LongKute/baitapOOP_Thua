@@ -32,3 +32,4 @@ const items = [
 ];
 const invoice = new Invoice(items, 10);
 invoice.output_Bill();
+//xong

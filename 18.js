@@ -15,6 +15,6 @@ const Users = [
   { name: "Thừa", age: 23 },
 ];
 const user = new User(Users);
-const check = user.check_age()
+const check = user.check_age();
 console.log(check);
 //xong

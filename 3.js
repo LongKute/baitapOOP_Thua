@@ -18,11 +18,11 @@ class Car {
   }
 }
 
-const car1 = new Car("Vinfast", "VF 8");
-const car2 = new Car("Mercedes", "C300");
-const car3 = new Car("Chevrolet", "Trailblazer");
-car1.driver();
-car2.driver();
-car3.driver();
+// const car1 = new Car("Vinfast", "VF 8");
+// const car2 = new Car("Mercedes", "C300");
+// const car3 = new Car("Chevrolet", "Trailblazer");
+// car1.driver();
+// car2.driver();
+// car3.driver();
 // xong
-module.exports = Car
+module.exports = Car;

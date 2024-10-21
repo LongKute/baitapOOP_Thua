@@ -16,5 +16,5 @@ class Employee {
 // console.log(employee1.calculateAnnualSalary());
 // console.log(employee2.calculateAnnualSalary());
 // console.log(employee3.calculateAnnualSalary());
-module.exports = Employee
+module.exports = Employee;
 //xong
