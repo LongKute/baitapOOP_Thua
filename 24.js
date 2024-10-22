@@ -27,3 +27,4 @@ const product = [
 ];
 const order = new Order(product);
 order.output_Bill();
+//xong

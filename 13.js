@@ -25,7 +25,7 @@ class Bike extends Vehicle {
     this.make = make
   }
   special(){
-    console.log(`xe đạp thương hiệu: ${this.make}, loại: ${this.type}, chạy được vận tốc: ${this.speed}, tiếng còi ting ting`);
+    console.log(`xe đạp thương hiệu: ${this.make}, loại: ${this.type}, chạy được vận tốc: ${this.speed}, tiếng còi nhạc Jack`);
     
   }
 }
