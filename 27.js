@@ -39,4 +39,5 @@ const hotel = new Hotel(rooms);
 console.log(hotel.checkRooms());
 console.log(hotel.bookRoom(200));
 console.log(hotel.checkRooms());
+//xong
 

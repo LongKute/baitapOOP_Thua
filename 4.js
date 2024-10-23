@@ -10,9 +10,15 @@ class Rectangle {
   get rectangular_Area() {
     return this.height * this.width;
   }
-  set Rectangular_Area(area) {}
+  
+  set Area(area) {
+    return this.height = area / this.width;
+  }
 }
 const rectangle = new Rectangle(2, 4);
 console.log(rectangle.rectangular_Area);
+const area = rectangle.Area = 10
+console.log(area)
 
-// chưa xong
+
+//xong

@@ -10,7 +10,7 @@ class Team {
     this.point = 0;
   }
   score() {
-    this.point = (this.win * 3) + (this.draw * 1);
+    this.point = this.win * 3 + this.draw * 1;
   }
 }
 
@@ -24,8 +24,8 @@ class Tournament {
     this.teams.push(team);
   }
   updatePoint(team1Name, team2Name, result) {
-    const team1 = this.teams.find((team) => (team.name === team1Name));
-    const team2 = this.teams.find((team) => (team.name === team2Name));
+    const team1 = this.teams.find((team) => team.name === team1Name);
+    const team2 = this.teams.find((team) => team.name === team2Name);
     if (result === "win") {
       team1.win++;
       team2.loss++;
@@ -47,7 +47,7 @@ class Tournament {
           `${index + 1}. ${team.name}: ${team.point} point (Win: ${
             team.win
           }, loss: ${team.loss}, draw: ${team.draw})`
-      )
+      );
   }
 }
 
@@ -57,8 +57,9 @@ tournament.addTeam("Team Saigon");
 tournament.addTeam("Team Valorant");
 tournament.addTeam("Team Steam");
 
-tournament.updatePoint("Team Saigon", "Team Valorant", "win")
-tournament.updatePoint("Team Valorant", "Team Steam", "loss")
-tournament.updatePoint("Team Steam", "Team Valorant", "draw")
+tournament.updatePoint("Team Saigon", "Team Valorant", "win");
+tournament.updatePoint("Team Valorant", "Team Steam", "loss");
+tournament.updatePoint("Team Steam", "Team Valorant", "draw");
 
 console.log(tournament.ratings());
+//xong
