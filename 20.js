@@ -3,26 +3,26 @@
 
 class Classroom {
   constructor(name, teach, student) {
-    this.name = name
-    this.teach = teach
-    this.student = student
+    this.name = name;
+    this.teach = teach;
+    this.student = student;
   }
-    
-  static average(classrooms){
-    const totalStudent = classrooms.reduce((sum,classroom) => sum + classroom.student.length, 0)
-    return totalStudent / classrooms.length
+
+  static average(classrooms) {
+    const totalStudent = classrooms.reduce(
+      (sum, classroom) => sum + classroom.student.length,
+      0
+    );
+    return totalStudent / classrooms.length;
   }
 }
 
 const classrooms = [
   // new Classroom ('A11', "Tâm", ["Thừa", "Sang", "Longkute"]) ,
-  new Classroom ('A12', "Sang", ["Hiếu", "Minh", "Phương","Tiến"]),
+  new Classroom("A12", "Sang", ["Hiếu", "Minh", "Phương", "Tiến"]),
   // new Classroom ('A13', "Thừa", ["Hoàng", "Linh", "Hoa"]) ,
-  // new Classroom ('A14', "Longkute", ["Siu", "Phước", "Thuận"]) 
-  
-
-]
-const average = Classroom.average(classrooms)
+  // new Classroom ('A14', "Longkute", ["Siu", "Phước", "Thuận"])
+];
+const average = Classroom.average(classrooms);
 console.log(`Tính trung bình ${average}`);
-// chưa xong
-
+// xong
